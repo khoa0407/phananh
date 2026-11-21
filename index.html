@@ -155,7 +155,7 @@
         </svg>
       </div>
 
-      <h2 class="text-2xl md:text-3xl font-bold text-center text-gold-gradient mb-2 tracking-wide">V3</h2>
+      <h2 class="text-2xl md:text-3xl font-bold text-center text-gold-gradient mb-2 tracking-wide">SEVER KEY V3</h2>
       <p class="text-[rgba(252,246,186,0.7)] text-sm mb-6 text-center font-medium">Vui Lòng Nhập Chìa Khoá ( Key ) Để Đăng Nhập Vào Hệ Thống</p>
       
       <div class="w-full relative" bis_skin_checked="1">
@@ -181,7 +181,10 @@
     <div class="md5-container" bis_skin_checked="1">
       <div bis_skin_checked="1">
           <span class="key-label">Lưu Ý:   </span>
-          <span id="display-time-left" class="time-value">Tool Không Thể Dự Đoán Đúng 100%</span>
+          <span id="display-time-left" class="time-value">BOT AI ( Hack- Tool ) 👾 <br>
+- Được tạo ra để phân tích các dãy số kí tự mã hoá của MD5,trong Games TàiXỉu MD5 <br>
+- Chính xác Tỉ lệ thắng 70% Của Games TàiXỉu - MD5 <br>
+! Mọi người nên học cách chia vốn trước khi chơi</span>
         </div>
       </div>
 
@@ -403,5 +406,45 @@
 
 
 <script src="Key_merged.js"></script>
-<script async="" src="./Hệ Thống VIP - Bảo Mật Thần Tài_files/hud" data-nf-variant="public" data-netlify-site-id="a6c4f739-ed1d-46ee-8fc0-48cd20299e83" data-app-host="app.netlify.com" data-account-tier="free"></script>
-<iframe id="nl-badge-frame" title="Powered by Netlify" style="position: fixed; bottom: 0px; right: 0px; border: 0px; margin: 0px; padding: 0px; background: transparent; color-scheme: dark; z-index: 2147483645; width: 197px; height: 64px; clip-path: path(&quot;M 3 3 H 184 V 51 H 3 Z&quot;);" data-nl-ready="1" src="./Hệ Thống VIP - Bảo Mật Thần Tài_files/saved_resource.html"></iframe></body></html>
+
+<!-- Nút hỗ trợ thay thế khung Netlify bị trắng -->
+<style>
+  #support-widget{position:fixed;right:18px;bottom:18px;z-index:2147483000;font-family:'DM Sans',sans-serif}
+  #support-toggle{border:1px solid #ffe08a;border-radius:999px;padding:12px 19px;color:#3b1600;font-weight:900;letter-spacing:.5px;background:linear-gradient(135deg,#fff1a8,#d4af37,#fff0a0);box-shadow:0 5px 22px rgba(0,0,0,.45),0 0 18px rgba(255,215,0,.45);animation:supportBlink 1.15s infinite;cursor:pointer}
+  @keyframes supportBlink{0%,100%{opacity:1;filter:brightness(1)}50%{opacity:.58;filter:brightness(1.25)}}
+  #support-panel{display:none;width:min(300px,calc(100vw - 36px));margin-bottom:11px;padding:16px;border-radius:16px;background:linear-gradient(145deg,rgba(35,17,61,.98),rgba(13,7,27,.98));border:1px solid rgba(255,215,0,.65);box-shadow:0 12px 35px rgba(0,0,0,.55);color:#fff}
+  #support-panel.open{display:block;animation:supportIn .2s ease-out}
+  @keyframes supportIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  #support-panel h3{font-size:17px;font-weight:900;text-align:center;color:#ffe08a;margin:0 0 12px}
+  .support-link{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none!important;margin-top:9px;padding:11px;border-radius:10px;font-weight:800;color:white!important}
+  .support-tele{background:#168bd2}.support-zalo{background:#087be5}
+  .support-notice{margin-top:13px;padding:11px;border-radius:10px;background:rgba(255,215,0,.09);border:1px solid rgba(255,215,0,.35);font-size:12px;line-height:1.55;color:#f8eec9}
+  .support-notice strong{display:block;color:#ffe08a;font-size:13px;margin-bottom:3px}
+  @media(max-width:480px){#support-widget{right:12px;bottom:12px}#support-toggle{padding:11px 16px}}
+</style>
+<div id="support-widget">
+  <div id="support-panel" role="dialog" aria-label="Trang hỗ trợ">
+    <h3>✦ TRUNG TÂM HỖ TRỢ ✦</h3>
+    <a class="support-link support-tele" href="https://t.me/phankhoabboy" target="_blank" rel="noopener noreferrer"> Hỗ trợ Telegram</a>
+    <a class="support-link support-zalo" href="https://zalo.me/0349912113" target="_blank" rel="noopener noreferrer"> Hỗ trợ Zalo</a>
+    <div class="support-notice"><strong>📢 THÔNG BÁO</strong>Vui lòng liên hệ qua Telegram hoặc Zalo nếu bạn cần hỗ trợ. Hãy chuẩn bị mã giao dịch hoặc thông tin liên quan để được xử lý nhanh hơn.</div>
+  </div>
+  <button id="support-toggle" type="button" aria-expanded="false" aria-controls="support-panel">✨ HỖ TRỢ</button>
+</div>
+<script>
+(function(){
+  const toggle=document.getElementById('support-toggle');
+  const panel=document.getElementById('support-panel');
+  if(!toggle||!panel)return;
+  toggle.addEventListener('click',function(){
+    const opened=panel.classList.toggle('open');
+    toggle.setAttribute('aria-expanded',String(opened));
+  });
+  document.addEventListener('click',function(event){
+    if(!document.getElementById('support-widget').contains(event.target)){
+      panel.classList.remove('open');toggle.setAttribute('aria-expanded','false');
+    }
+  });
+})();
+</script>
+</body></html>
